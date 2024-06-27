@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first {
+    width: 100%;
+    height: 600px;
+    background-image: url('./Assets/images/Chrysanthemums_Pink.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    text-align: center;
+    margin-right: auto;
+    }
+
+#name {
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 90px;
+    margin-left: 350px;
+}
+
+#programmer {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ich {
+    height: 250px;
+    margin: 30px;
+    border: 10px solid #FFD0D0;
+    border-radius: 50% 50%;
+    margin-top: 80px;
+}
+
+.blue {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: #3AA6B9;
+    margin-bottom: 80px;
+}
+
+.txt {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.hello {
+    font-size: 1.5rem;
+}
+
+hr {
+    border: dotted #FFD0D0 10px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    }
+
+.third {
+    width: 50%;
+    gap: 50px;
+}
+
+.third-grid {
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1 fr 2 fr;
+    align-items: center;
+    border: 3px solid #3AA6B9;
+    padding: 10px;
+}
+
+
+.design {
+    height: 120px;
+    padding: 10px;
+ } 
+
+section {
+    background-color: #FFD0D0;
+    padding-top: 200px;
+    width: 100%;
+    height: 100px;
+    font-size: 10px;
+}
+
+.vier > p {
+    padding-bottom: 15px;
+}
+
+.say {
+    color: #3AA6B9;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #11cdd4;
+    border: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 25px 0;
+}
+.button:hover {
+    background-color: #3AA6B9;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.git {
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 25px;
+    border: 2px solid #11cdd4;
+    background-color: white; 
+    color: #11cdd4;
+    align-items: flex-start;
+}
+
+.contact {
+    background-color: #FFD0D0;
+    width: 500px;
+    margin-top: 200px;
+    padding: 20px;
+}
